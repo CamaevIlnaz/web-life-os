@@ -1,3 +1,3 @@
 import { createRoute } from 'atomic-router';
 
-export const goalsRoute = createRoute();
+export const workoutsRoute = createRoute();

@@ -1,7 +1,7 @@
 import { notFoundRoute } from '@/pages';
 import { budgetRoute } from '@/pages/budget';
 import { calendarRoute } from '@/pages/calendar';
-import { goalsRoute } from '@/pages/goals';
+import { workoutsRoute } from '@/pages/workouts';
 import { habitsRoute } from '@/pages/habits';
 import { overviewRoute } from '@/pages/overview';
 import { settingsRoute } from '@/pages/settings';
@@ -14,7 +14,7 @@ export const routes = {
   tasks: tasksRoute,
   calendar: calendarRoute,
   statistics: statisticsRoute,
-  goals: goalsRoute,
+  workouts: workoutsRoute,
   habits: habitsRoute,
   settings: settingsRoute,
   notFound: notFoundRoute,

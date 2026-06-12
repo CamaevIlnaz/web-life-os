@@ -1,6 +1,6 @@
 import { BudgetPage, budgetRoute } from './budget';
 import { CalendarPage, calendarRoute } from './calendar';
-import { GoalsPage, goalsRoute } from './goals';
+import { WorkoutsPage, workoutsRoute } from './workouts';
 import { HabitsPage, habitsRoute } from './habits';
 import { NotFoundPage, notFoundRoute } from './not-found';
 import { OverviewPage, overviewRoute } from './overview';
@@ -35,9 +35,9 @@ export const routes = [
     view: StatisticsPage,
   },
   {
-    path: '/goals',
-    route: goalsRoute,
-    view: GoalsPage,
+    path: '/workouts',
+    route: workoutsRoute,
+    view: WorkoutsPage,
   },
   {
     path: '/habits',
