@@ -7,6 +7,7 @@ import { overviewRoute } from '@/pages/overview';
 import { settingsRoute } from '@/pages/settings';
 import { statisticsRoute } from '@/pages/statistics';
 import { tasksRoute } from '@/pages/tasks';
+import { storybookRoute } from '@/pages/storybook/model';
 
 export const routes = {
   overview: overviewRoute,
@@ -18,4 +19,5 @@ export const routes = {
   habits: habitsRoute,
   settings: settingsRoute,
   notFound: notFoundRoute,
+  storybook: storybookRoute,
 };

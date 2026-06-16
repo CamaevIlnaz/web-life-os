@@ -7,6 +7,8 @@ import { OverviewPage, overviewRoute } from './overview';
 import { SettingsPage, settingsRoute } from './settings';
 import { StatisticsPage, statisticsRoute } from './statistics';
 import { TasksPage, tasksRoute } from './tasks';
+import { StorybookPage } from './storybook';
+import { storybookRoute } from './storybook/model';
 
 export const routes = [
   {
@@ -49,6 +51,11 @@ export const routes = [
     route: settingsRoute,
     view: SettingsPage,
   },
+  {
+    path: '/storybook',
+    route: storybookRoute,
+    view: StorybookPage,
+  }
 ];
 
 export { notFoundRoute, NotFoundPage };

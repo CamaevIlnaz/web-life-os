@@ -28,4 +28,5 @@ export const navItems: NavItem[] = [
   { route: routes.statistics, label: 'Статистика', icon: BarChart3 },
   { route: routes.calendar, label: 'Календарь', icon: CalendarDays },
   { route: routes.settings, label: 'Настройки', icon: Settings },
+  { route: routes.storybook, label: 'Storybook', icon: Settings },
 ];
