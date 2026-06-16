@@ -1,7 +1,10 @@
+import { PageHeader } from '@/widgets/page-header';
+
 export const HabitsPage = () => {
   return (
-    <div>
-      <h1>Привычки</h1>
-    </div>
+    <PageHeader
+      title="Привычки"
+      subtitle="Формируй полезные привычки и отслеживай прогресс каждый день."
+    />
   );
-}
+};
