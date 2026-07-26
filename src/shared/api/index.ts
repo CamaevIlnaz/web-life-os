@@ -12,6 +12,7 @@ export {
   getApiBaseUrl,
   setAccessToken,
   setApiBaseUrl,
+  setOnUnauthorized,
 } from './http-client';
 
 export * from './generated/auth/auth';
