@@ -1,7 +1,7 @@
-import { VStack } from '@chakra-ui/react';
+import { HStack, VStack } from '@chakra-ui/react';
 import { Droplet } from 'lucide-react';
 
-import { EntityPreview, Title } from '@/shared/ui';
+import { CircleCheckbox, EntityPreview, Title } from '@/shared/ui';
 
 export const StorybookPage = () => {
   return (
@@ -22,6 +22,19 @@ export const StorybookPage = () => {
           iconBg="#d5e7ff"
         />
       </VStack>
+      <hr />
+      <HStack gap="4">
+        <CircleCheckbox
+          ariaLabel="Выполнено"
+          colorPalette="green"
+          defaultChecked
+        />
+        <CircleCheckbox
+          ariaLabel="Выполнено сегодня"
+          colorPalette="blue"
+          defaultChecked
+        />
+      </HStack>
       <hr />
     </VStack>
   );
