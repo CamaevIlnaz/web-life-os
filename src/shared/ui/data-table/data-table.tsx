@@ -57,7 +57,7 @@ export function DataTableColumnHeader({
       color="muted"
       fontWeight="bold"
       fontSize="xs"
-      borderColor="border"
+      borderColor="gray.100"
       textAlign="center"
       py="3"
       px="2"
@@ -80,7 +80,7 @@ export function DataTableCell({
 }: DataTableCellProps) {
   return (
     <Table.Cell
-      borderColor="border"
+      borderColor="gray.100"
       py="3"
       px="2"
       textAlign="center"
