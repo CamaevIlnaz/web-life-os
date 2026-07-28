@@ -19,7 +19,7 @@ export function DataTableRoot({ title, footer, children }: DataTableRootProps) {
       {title != null ? (
         <Box px="5" pt="5" pb="2">
           {typeof title === 'string' ? (
-            <Text fontSize="md" fontWeight="semibold" color="heading" lineHeight="1.3">
+            <Text fontSize="md" fontWeight="bold" color="heading" lineHeight="1.3">
               {title}
             </Text>
           ) : (
